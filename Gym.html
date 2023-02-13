@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>We Go Gym</title>
+</head>
+<style>
+    /*CSS Reset*/
+    body{
+        margin: 0px;
+        padding: 0px;
+        background:url("gim.jpg")
+    }
+    .left{
+        display: inline-block;
+        left: 34px;
+        top: 20px;
+    }
+    .left img{
+        width: 203px;
+    }
+    .left div{
+        text-align: center;
+        font-size: 50px;
+    }
+    .mid{
+        width: 33%;
+        margin: 10px auto;
+        display: block;
+
+    }
+    .right{
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        font-size: 55px;
+        display: inline-block;
+    }
+    .navbar li a{
+        color: rgb(0, 0, 0);
+        display: inline-block;
+        text-decoration: none;
+        padding:34px 23px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color: gray;
+    }
+    .btn{
+        margin: 10px 19px;
+        padding: 30px 40px;
+        border: 10px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background-color: rgb(180, 8, 243);
+    }
+    .container{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin: 18px 19px;
+        background-color: khaki;
+        color: rgb(159, 33, 33);
+        padding: 4px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+</style>
+<body style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+    <header class="header">
+        <div class="left">
+           <img src="dp.jpg" alt=""> 
+           <div>Dev Here</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us</button><button class="btn">Email</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym!</h1>
+        <form action="noaction.php"></form>
+        <div class="form">
+            <input type="text"name="" placeholder="Enter your name!">
+            <input type="text"name="" placeholder="Enter your name!">
+            <input type="text"name="" placeholder="Enter your name!">
+            <input type="text"name="" placeholder="Enter your name!">
+            <buttton class="btn">Submit</buttton>
+        </div>
+    </div>
+</body>
+</html>
